@@ -9,4 +9,6 @@ if [ -d .git ]; then
     fi
 
     git push
+else
+    echo " You are not in a git repository"
 fi
