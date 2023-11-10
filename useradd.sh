@@ -3,8 +3,7 @@
 username=$1
 useradd $username
 
-if [ $? == '0' ]
-then
+if [ $? == '0' ]; then
     echo "User $username has been created"
 
 elif [ $? == '9' ]; then
