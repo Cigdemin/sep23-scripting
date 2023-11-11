@@ -9,4 +9,4 @@ DROPLET_ID="384481288"
 curl -X GET \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $DO_TOKEN" \
-  "https://api.digitalocean.com/v2/droplets/$DROPLET_ID" | jq .droplet.networks.v4[0].ip_address
+   "https://api.digitalocean.com/v2/droplets/$DROPLET_ID" | jq .droplet.networks.v4[0].ip_address
