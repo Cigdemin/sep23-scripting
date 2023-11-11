@@ -3,5 +3,5 @@
 curl -X POST \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $DO_TOKEN" \
-  -d '{"name":"created_by_script","region":"nyc1","size":"s-1vcpu-1gb","image":"ubuntu-20-04-x64"}' \
+  -d '{"name":"created_by/_script","region":"nyc1","size":"s-1vcpu-1gb","image":"ubuntu-20-04-x64"}' \
   "https://api.digitalocean.com/v2/droplets" }| jq
