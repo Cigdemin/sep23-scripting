@@ -4,7 +4,7 @@
 read -p "Could you please say some text: " string
 #echo $string
 read -p "Could you please say me a number now " number
-for ((i=1; i<=number; i++))
+for i in $(seq 1 $number)
 do
     echo $string
 done
